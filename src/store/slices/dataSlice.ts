@@ -15,7 +15,7 @@ const DataState: DataStateType = {
   firstName: "Olena",
   lastName: "Babii",
   jobTitle: "Junior QA Engineer",
-  aboutMe: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a dolor arcu. Vivamus eget commodo arcu. In et sem dui. Cras ultrices erat sed pharetra malesuada. In ac viverra sapien. Suspendisse potenti. Mauris vitae lacus vitae nibh imperdiet maximus id ac mauris. Maecenas in lacus iaculis, posuere lacus ut, imperdiet quam. Fusce volutpat lacus vitae ante elementum finibus. Quisque efficitur, lacus vitae aliquet pulvinar, nunc lectus laoreet dui, at molestie ante mi eget ante. Curabitur a diam et erat vestibulum faucibus. Donec pellentesque erat consectetur erat finibus, et finibus sapien tempus. Sed eu metus mattis, viverra purus vitae, ultricies metus.",
+  aboutMe: "A smart, talented, and result-oriented QA engineer looking for interesting projects to participate in.",
   phone: "+380633333333",
   email: "email@gmail.com",
   languages: ["English (B2)"],

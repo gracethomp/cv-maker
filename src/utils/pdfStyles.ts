@@ -40,20 +40,30 @@ export const styles = StyleSheet.create({
   mainInfo: {
     display: "flex",
     flexDirection: "row",
-    gap: 50,
+    gap: 60,
     fontFamily: "Now",
     color: "#533229",
+    marginBottom: 30,
   },
   leftPart: {
     display: "flex",
     flexDirection: "column",
+    flex: 1,
     gap: 30,
   },
   rightPart: {
-    flex: 1,
+    flex: 2,
     display: "flex",
     flexDirection: "column",
-    gap: 5,
+    gap: 10,
+  },
+  aboutMeSection: {
+    display: 'flex',
+    gap: 10,
+    flexDirection: 'column',
+  },
+  aboutMeText: {
+    fontSize: 13,
   },
   name: {
     fontSize: 35,
