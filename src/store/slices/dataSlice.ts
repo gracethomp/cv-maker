@@ -26,7 +26,7 @@ const DataState: DataStateType = {
   email: "email@gmail.com",
   location: "Kyiv, Ukraine (office/remote)",
   languages: ["English (B2)"],
-  skills: ["HTML/CSS/Javascript", "Chrome Devtools"],
+  skills: ["HTML/CSS/Javascript", "Postman", "Chrome Devtools"],
   workExperience: [
     {
       jobTitle: "Intern Fullstack Developer",
