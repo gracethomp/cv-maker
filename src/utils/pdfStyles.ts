@@ -11,8 +11,8 @@ export const styles = StyleSheet.create({
     marginTop: 30,
   },
   photoSection: {
-    height: 130,
-    width: 130,
+    height: 110,
+    width: 110,
   },
   photo: {
     objectFit: "cover",
@@ -30,12 +30,12 @@ export const styles = StyleSheet.create({
     gap: 5,
   },
   labelTitle: {
-    fontWeight: 'bold',
+    fontWeight: "bold",
   },
   labelSection: {
     display: "flex",
     flexDirection: "column",
-    gap: 10
+    gap: 10,
   },
   mainInfo: {
     display: "flex",
@@ -58,9 +58,15 @@ export const styles = StyleSheet.create({
     gap: 10,
   },
   aboutMeSection: {
-    display: 'flex',
+    display: "flex",
     gap: 10,
-    flexDirection: 'column',
+    flexDirection: "column",
+  },
+  workSection: {
+    marginTop: 20,
+    display: "flex",
+    flexDirection: "column",
+    gap: 15,
   },
   aboutMeText: {
     fontSize: 13,
@@ -74,4 +80,56 @@ export const styles = StyleSheet.create({
     marginTop: 5,
     height: "1px",
   },
+  workSeparator: {
+    display: 'flex',
+    alignItems: 'center',
+    width: 15,
+  },
+  ring: {
+    width: 10,
+    height: 10,
+    borderRadius: "50%",
+    backgroundColor: "#533229",
+  },
+  circle: {
+    width: 5,
+    height: 5,
+    borderRadius: "50%",
+    backgroundColor: "#533229",
+  },
+  workBlock: {
+    display: 'flex',
+    flexDirection: 'row',
+    gap: 10,
+    fontSize: 13,
+  },
+  date: {
+    fontSize: 12,
+    fontWeight: 'light',
+    color: '#7F6A65'
+  },
+  workPlace: {
+    fontSize: 12,
+    fontWeight: 'light',
+    color: '#7F6A65',
+  },
+  jobTitlePrev: {
+    fontSize: 17,
+    marginBottom: 5,
+    fontWeight: 'medium',
+  },
+  responsibilityBlock: {
+    marginTop: 10,
+    marginBottom: 20,
+    display: 'flex',
+    gap: 5,
+    fontSize: 12,
+    color: '#7F6A65',
+  },
+  resp: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 5
+  }
 });
