@@ -15,3 +15,7 @@ Font.register({
     { src: nowThinFont, fontWeight: "thin" },
   ],
 });
+
+Font.registerHyphenationCallback(word => (
+  [word]
+));
