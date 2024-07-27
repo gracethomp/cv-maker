@@ -94,10 +94,6 @@ const MyDocument: FC = () => {
                   <View>
                     {workExperience.map((value) => (
                       <View style={styles.workBlock}>
-                        {/* <View> */}
-                          {/* <View style={styles.ring}></View> */}
-                          {/* <View style={styles.workLine}></View> */}
-                        {/* </View> */}
                         <View>
                           <Text style={styles.jobTitlePrev}>
                             {value.jobTitle}

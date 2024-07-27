@@ -80,17 +80,6 @@ export const styles = StyleSheet.create({
     marginTop: 5,
     height: "1px",
   },
-  workSeparator: {
-    display: 'flex',
-    alignItems: 'center',
-    width: 15,
-  },
-  ring: {
-    width: 10,
-    height: 10,
-    borderRadius: "50%",
-    backgroundColor: "#533229",
-  },
   circle: {
     width: 5,
     height: 5,
