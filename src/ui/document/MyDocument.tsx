@@ -28,6 +28,7 @@ const MyDocument: FC = () => {
   const workExperience = useAppSelector(
     (state) => state.dataReducer.workExperience
   );
+  const educations = useAppSelector((state) => state.dataReducer.educations);
 
   return (
     <PDFViewer className="h-full flex-1">
@@ -70,6 +71,16 @@ const MyDocument: FC = () => {
                       <Text>{location}</Text>
                     </View>
                   )}
+                </View>
+                <View style={styles.labelSection}>
+                  <Text style={styles.labelTitle}>EDUCATION</Text>
+                  {educations.map((value) => (
+                    <View style={styles.edu}>
+                      <Text style={styles.university}>{value.field}</Text>
+                      <Text style={styles.label}>{value.university}</Text>
+                      <Text style={styles.date}>{`${value.startYear} - ${value.endYear}`}</Text>
+                    </View>
+                  ))}
                 </View>
                 <View style={styles.labelSection}>
                   <Text style={styles.labelTitle}>SKILLS</Text>

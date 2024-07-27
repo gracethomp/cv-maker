@@ -57,10 +57,10 @@ const DataState: DataStateType = {
   ],
   educations: [
     {
-      university: "National Technical University of Ukraine 'Kyiv Polytechnic Institute'​",
-      field: 'Computer Science',
+      university: "NTUU 'KPI'​",
+      field: "Bachelor of Computer Science",
       startYear: 2020,
-      endYear: 2024
+      endYear: 2024,
     },
   ],
 };

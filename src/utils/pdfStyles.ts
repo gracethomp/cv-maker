@@ -30,6 +30,7 @@ export const styles = StyleSheet.create({
     gap: 5,
   },
   labelTitle: {
+    marginBottom: 10,
     fontWeight: "bold",
   },
   labelSection: {
@@ -120,5 +121,14 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: 5
+  },
+  university: {
+    fontWeight: 'medium',
+    fontSize: 13,
+  },
+  edu: {
+    display: 'flex',
+    flexDirection: 'column',
+    gap: 5,
   }
 });
