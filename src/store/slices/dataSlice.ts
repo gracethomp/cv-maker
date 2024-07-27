@@ -1,5 +1,6 @@
 import { PayloadAction, createSlice } from "@reduxjs/toolkit";
 import { WorkExperience } from "../../types/workExperience";
+import { Education } from "../../types/education";
 
 type DataStateType = {
   firstName: string;
@@ -12,6 +13,7 @@ type DataStateType = {
   languages: string[];
   skills: string[];
   workExperience: WorkExperience[];
+  educations: Education[];
 };
 
 const DataState: DataStateType = {
@@ -51,6 +53,14 @@ const DataState: DataStateType = {
         "Worked with Postman, SQL, Git, Java, Selenium, Appium, and RestAssured",
         "Recognized as one of the top students during the apprenticeship program",
       ],
+    },
+  ],
+  educations: [
+    {
+      university: "National Technical University of Ukraine 'Kyiv Polytechnic Institute'​",
+      field: 'Computer Science',
+      startYear: 2020,
+      endYear: 2024
     },
   ],
 };
